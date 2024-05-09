@@ -1,2 +1,2 @@
 # ARI
-ARI Firebird SQL Masraf Takip
+ARI Firebird SQL Masraf Takip güzel çalışır
