@@ -1,5 +1,6 @@
- program ARI;
+program ARI;
 
+{2010 yılında yazılan Borland Delphi ile derlenebilen bir kütüphane}
 uses
   Forms,
   SysUtils,
@@ -56,7 +57,7 @@ begin
   except on E:Exception do
   begin
     ShowMessage('HATA : Kod(100B) : ' + CRLF +   E.Message + CRLF +
-                          'Form olusturulamiyor.Uygulama Kapat�lacak...');
+                          'Form olusturulamiyor.Uygulama Kapatýlacak...');
     Application.Terminate;
   end;
   end;
